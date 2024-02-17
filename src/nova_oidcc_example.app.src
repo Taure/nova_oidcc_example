@@ -1,0 +1,18 @@
+%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+{application, nova_oidcc_example, [
+    {description, "nova_oidcc_example managed by Nova"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {nova_oidcc_example_app, []}},
+    {included_applications, []},
+    {applications, [
+        kernel,
+        stdlib,
+        nova
+    ]},
+    {env, []},
+    {modules, []},
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
