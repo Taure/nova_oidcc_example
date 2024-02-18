@@ -29,6 +29,7 @@
         }
     ]},
     {nova, [
+        {use_stacktrace, true},
         {environment, dev},
         {cowboy_configuration, #{
             port => 8080

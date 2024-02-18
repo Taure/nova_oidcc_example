@@ -10,7 +10,7 @@ routes(_Environment) ->
     [
         #{
             prefix => "",
-            security => {nova_oidcc_example_auth, is_authorized},
+            security => {nova_oidcc_auth, is_authorized},
             routes => [
                 {"/", {nova_oidcc_example_main_controller, index}, #{methods => [get]}},
                 {"/assets/[...]", "assets"}
